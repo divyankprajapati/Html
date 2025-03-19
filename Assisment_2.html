@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assisment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    table,th,td{
+        border-collapse:collapse;
+        border: 3px solid rgb(255, 13, 13);
+    }
+    thead,tr,th{
+        color: rgb(0, 135, 88);
+        background-color: aquamarine;
+    }
+    table,tr{
+        background-color: rgb(155, 121, 121);
+        color: black;
+    }
+</style>
+<body>
+    <table border="1" >
+        <caption>Assignment 2 - Table</caption>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Price</th>
+            </tr>
+            <body>
+                <tr>
+                    <td>Pencils</td>
+                    <td>4</td>
+                    <td>$1</td>
+                    <td>$2</td>
+                </tr>
+                <tr>
+                    <td>Erasers</td>
+                    <td>4</td>
+                    <td rowspan="2">$0.50</td>
+                    <td>$2</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Subtotal</td>
+                    <td>$4</td>
+                </tr>
+                <tr>
+                    <td>tax</td>
+                    <td>10%</td>
+                    <td colspan="2">$0.4</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Footer of the table</td>
+                    </tr>
+                </tfoot>
+            </body>
+        </thead>
+    </table>
+</body>
+</html>
