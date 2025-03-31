@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_6</title>
+</head>
+<style>
+    
+    #btn button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin: 0 40px;
+        background-color: orange;
+        color: white;
+    }
+    #btn button a{
+        text-decoration: none;
+    }
+
+    .hero {
+        border: 2px solid red;
+        margin: 30px 0;
+        overflow: hidden;
+    }
+
+    .scroll {
+        width: 50%;
+        height: 100px;
+        overflow: scroll;
+        text-wrap: wrap;
+        border: 2px solid black;
+        margin: 10px 5px;
+    }
+
+    .hidden {
+        overflow: hidden;
+        width: 50%;
+        border: 2px solid black;
+        margin: 10px;
+    }
+
+    .hidden p {
+        padding: 10px;
+    }
+
+    .scroll p {
+        padding: 10px;
+    }
+
+    .scroll2 {
+        width: 50%;
+        text-wrap: nowrap;
+        overflow: scroll;
+        border: 2px solid black;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .scroll3 {
+        height: 40px;
+        width: 50%;
+        overflow: visible;
+        border: 2px solid black;
+        margin: 10px;
+    }
+
+    .elipses {
+        height: 50px;
+        width: 50%;
+        margin: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 2px solid black;
+    }
+
+    .img img {
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+    }
+</style>
+
+<body>
+    <div id="btn">
+       
+            <button> <a  href="Assignment_1.html">Assignment 1</a></button>
+            <button> <a  href="Assignment_2.html">Assignment 2</a></button>
+            <button> <a  href="Assignment_3.html">Assignment 3</a></button>
+            <button> <a  href="Assignment_4_Form.html">Assignment 4</a></button>
+            <button> <a  href="Assignment_5.html">Assignment 5</a></button>
+            <button> <a  href="Assignment_6.html">Assignment 6</a></button>
+        
+    </div>
+    <h1>Assignment 6</h1>
+    <div class="main">
+        <div class="hero">
+            <p><u>1. Content will have scroll bars</u></p>
+            <div class="scroll">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odio autem exercitationem nemo eos natus
+                    atque aut minus. Mollitia molestias voluptate repudiandae consequuntur quam ad esse aliquam
+                    voluptates tenetur at dolor rem laborum quas quos accusantium, a veritatis neque voluptatibus omnis,
+                    eaque iste enim animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis
+                    nobis aut cumque dignissimos fugit nulla, illo voluptatum minima expedita! Sed exercitationem
+                    voluptatum distinctio quod!</p>
+            </div>
+        </div>
+        <div class="hero">
+            <p><u>2. Content will have only scroll bars if it exceeds the height</u></p>
+            <div class="hidden">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odio autem exercitationem nemo eos natus
+                    atque aut minus. Mollitia molestias voluptate repudiandae consequuntur quam ad esse aliquam
+                    voluptates tenetur at dolor rem laborum quas quos accusantium, a veritatis neque voluptatibus omnis,
+                    eaque iste enim animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis
+                    nobis aut cumque dignissimos fugit nulla, illo voluptatum minima expedita! Sed exercitationem
+                    voluptatum distinctio quod!</p>
+            </div>
+        </div>
+        <div class="hero">
+            <p><u>3. Content will have scroll bars from left to right</u></p>
+            <div class="scroll2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odio autem exercitationem nemo eos natus
+                    atque aut minus. Mollitia molestias voluptate repudiandae consequuntur quam ad esse aliquam
+                    voluptates tenetur at dolor rem laborum quas quos accusantium, a veritatis neque voluptatibus omnis,
+                    eaque iste enim animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis
+                    nobis aut cumque dignissimos fugit nulla, illo voluptatum minima expedita! Sed exercitationem
+                    voluptatum distinctio quod!</p>
+            </div>
+        </div>
+        <div class="hero">
+            <p><u>4. Full content Will be visible</u></p>
+            <div class="scroll3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odio autem exercitationem nemo eos natus
+                    atque aut minus. Mollitia molestias voluptate repudiandae consequuntur quam ad esse aliquam
+                    voluptates tenetur at dolor rem laborum quas quos accusantium, a veritatis neque voluptatibus omnis,
+                    eaque iste enim animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis
+                    nobis aut cumque dignissimos fugit nulla, illo voluptatum minima expedita! Sed exercitationem
+                    voluptatum distinctio quod!</p>
+            </div>
+        </div>
+        <div class="hero">
+            <p><u>4. Full content not Will be visible but the user will know that there is some hidden content</u></p>
+            <div class="elipses">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odio autem exercitationem nemo eos natus
+                    atque aut minus. Mollitia molestias voluptate repudiandae consequuntur quam ad esse aliquam
+                    voluptates tenetur at dolor rem laborum quas quos accusantium, a veritatis neque voluptatibus omnis,
+                    eaque iste enim animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis
+                    nobis aut cumque dignissimos fugit nulla, illo voluptatum minima expedita! Sed exercitationem
+                    voluptatum distinctio quod!</p>
+            </div>
+        </div>
+        <div>
+            <h1>Formating Tags</h1>
+            <p>Lorem ipsum, dolor <i>sit amet</i> consectetur <sub>adipisicing</sub> elit. Consequuntur <sup>
+                    provident</sup> qua cumque <del>exercitationem</del> nostrum dolor illo?</p>
+        </div>
+        <div>
+            <h1>Phrase Tags</h1>
+            <p>Lorem ipsum, dolor sit <mark>amet consectetur</mark> adipisicing elit. Consequuntur dolor illo?</p>
+        </div>
+        <div>
+            <q>happy Learning !</q><br>
+            <cite>CSS is used for styling</cite><br>
+            <abbr>JS</abbr>
+        </div>
+        <div class="img">
+            <h1>Image Tag</h1>
+            <a href="https://search.brave.com/search?q=w3schools&source=desktop" target="_blank">
+                <img src="./img/form_bg1.jpg" alt="" class="newTab">
+                <p>This image is clickable and the link opens in new tab</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
